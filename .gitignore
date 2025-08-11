@@ -1,0 +1,147 @@
+# Environment and config
+.env
+.env.*
+config.json
+secrets.json
+serviceAccountKey.json
+scanlyf-*.json
+*-firebase-adminsdk-*.json
+*-service-account.json
+*.json
+!package.json
+!ecosystem.config.js
+!firestore.indexes.json
+
+# Firebase files
+.firebaserc
+firebase.json
+firestore.rules
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Logs and debugging
+*.log
+logs/
+*.out
+*.err
+debug/
+temp/
+tmp/
+server.log
+mcp-server.log
+
+# Test files
+test*.js
+test*.txt
+test*.json
+test/
+tests/
+__tests__/
+*.test.js
+*.spec.js
+diagnose*.js
+generate*.js
+check*.js
+debug*.js
+create-demo-token.js
+find-jwt-secret.js
+create-firebase-indexes.js
+
+# Documentation (except README)
+*.md
+!README.md
+!CLAUDE.md
+docs/
+documentation/
+guides/
+
+# Images and media
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.webp
+images/
+assets/
+screenshots/
+*.base64
+*base64*.txt
+
+# Scripts and deployment
+*.sh
+deploy*/
+scripts/
+.scripts/
+*.exp
+fixes/
+
+# Archives and compressed files
+*.tar.gz
+*.tar
+*.gz
+*.zip
+*.rar
+scanlyf-*.tar.gz
+*-deploy.tar.gz
+
+# IDE and OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build and cache
+dist/
+build/
+.cache/
+*.cache
+.vercel
+
+# PM2
+.pm2/
+ecosystem.config.js
+
+# Data and exports
+exports/
+data/
+*.csv
+*.pdf
+*.xlsx
+*.txt
+!requirements.txt
+
+# Backup files
+*.bak
+*.backup
+*_old.*
+backup/
+
+# Other
+*.zip
+*.tar.gz
+*.rar
+coverage/
+.nyc_output/
+nginx*.conf
+*.conf
+
+# HTML files (landing pages, etc)
+*.html
+landing.html
+
+# License files
+LICENSE
+LICENSE.*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
